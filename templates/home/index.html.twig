@@ -58,20 +58,9 @@
                              class="object-fit-cover w-100 h-100 img-fluid " alt="...">
                         <div
                             class="carousel-caption d-flex  flex-wrap align-content-stretch justify-content-evenly h-100 ">
-                            <div
-                                class=" align-self-center row welcome-caption bg-black bg-opacity-50 blur py-5 px-4 rounded">
-                                <h1 class="mb-4"><strong>Bienvenue sur Art-AFAC</strong></h1>
-                                <p>L'Association des Familles Amies de CAPELINE vous présente une séléction d'oeuvre
-                                    issue de la Réunion et de l'océan Indien.
-                                    <br>
-                                    Venez découvrir les richesses de la région en compagnie de nos partenaires : L'ihoi
-                                    ainsi qu'Objet Témoin.
-
-                                </p>
-                            </div>
 
                             <div
-                                class="painting-info align-self-end row  justify-content-center  mx-auto mb-2  py-2 px-1 bg-black bg-opacity-50 blur rounded ">
+                                class="painting-info align-self-end row  justify-content-center  mx-auto mb-5  py-2 px-1 bg-black bg-opacity-50 blur rounded ">
                                 <h4> {{ painting.title }}</h4>
                                 <a class="text-decoration-none text-primary-inverse "
                                    href="{{ path('artist_show', { slug: painting.artist.slug }) }}">{{ painting.artist.name }}</a>
